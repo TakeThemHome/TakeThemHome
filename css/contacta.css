@@ -1,0 +1,407 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+
+q,
+blockquote {
+    quotes: none
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none
+}
+
+a img {
+    border: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+body {
+    background: #00;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    line-height: 1.4
+}
+
+a,
+input {
+    outline: none
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix,
+.wpr {
+    *zoom: 1;
+}
+
+.clearfix:after,
+.wpr:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wpr {
+    margin: 100px auto 0;
+    width: 336px
+}
+
+.social {
+    background: #eaeaea;
+    border: 1px solid #cacaca;
+    display: block;
+    float: left;
+    height: 180px;
+    margin: 0 5px;
+    padding: 5px;
+    width: 90px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 1px #fff;
+    -moz-box-shadow: inset 0 1px 1px #fff;
+    box-shadow: inset 0 1px 1px #fff
+}
+
+.social .icon {
+    background-color: #c5c5c5;
+    background-image: url(https://i.imgur.com/QrH5YDn.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 8px auto 12px;
+    width: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+.social .icon2{
+	background-color: #c5c5c5;
+    background-image: url(logoinstagram.png)
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 8px auto 12px;
+    width: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+
+
+.social .shutter_frame {
+    height: 44px;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px
+}
+
+.social .shutter_frame .shutter {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.social .shutter_frame .shutter .number,
+.social .shutter_frame .shutter .text {
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.social .shutter_frame .shutter .number {
+    color: #fff;
+    font-size: 13px;
+    line-height: 40px;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -ms-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.5)
+}
+
+.social .shutter_frame .shutter .text {
+    background: #d8d8d8;
+    color: #666;
+    font-size: 12px;
+    line-height: 47px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.social .shutter_frame .shutter .bar {
+    background: #eaeaea;
+    border: 1px solid #b7b7b7;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 36px;
+    width: 88px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px #fff;
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px #fff
+}
+
+.social#twitter .icon {
+    background-position: 8px 10px
+}
+
+.social#twitter .number {
+    background: #00aced
+}
+
+.social#twitter:hover{
+    background-color: #01aced
+}
+
+.social#instagram .icon2{
+	background-image: url("images/logoinstagram.png")
+}
+
+.social#instagram .number {
+    background: #3f5fa3
+}
+
+.social#instagram:hover {
+    background-color: #CE12BE
+}
+
+body {
+    background-color: #00B093;
+}
+
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+textarea {
+    /* Para alinear campos de texto multilínea con sus labels */
+    vertical-align: top;
+
+    /* Para dar suficiente espacio para escribir texto */
+    height: 5em;
+
+    /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+        No funciona en todos los navegadores */
+    resize: vertical;
+}
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+}
+
+
+
+
+
+
+
+
+

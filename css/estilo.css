@@ -1,0 +1,105 @@
+/*azul:#00B093
+naranja: #FFC55E
+rosa: #F6818F
+*/
+
+@keyframes titulo{
+	from{
+		
+	}
+	to{
+		left: 15%;
+	}
+}
+
+
+.font{
+	font-family: 'Sigmar One', cursive;
+	font-size: 3.5em;
+}
+.font2{
+	background-color: white;
+	border-radius: 1em;
+	font-size: 1.5em;
+	color: black;
+}
+
+#fondo_titulo{
+	background-color: #00B093;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-left: 1em;
+}
+
+
+.carsize{
+	height: 39.1em;
+	width: 100%;
+}
+.absoluto{
+	position: absolute;
+	z-index: 2;
+	top: 20%;
+	left: -50%;
+	animation: 3s titulo forwards;
+}
+
+.align_center{
+	text-align: center;
+}
+
+#nosotros{
+	height: 100%;
+}
+
+#contacta{
+	background-color: #00B093;
+	height: 100%;
+}
+
+#letritas{
+	margin-top: 10em;
+	margin-right: 2em;
+}
+
+#logotth{
+	width: 3.5em;
+	height: 3em;
+	padding-right: 0.5em;
+}
+
+#asociaciones{
+	height: 100%;
+}
+
+
+#tablasos{
+	background-color: white;
+}
+
+.alcentro{
+	margin-left: 12em;
+	margin-bottom: 1em;
+}
+
+#sin-margen {
+	margin-top: -270px;
+}
+
+#pasos{
+	background-color: #F1F1E2;
+	border-left: 0.5em;
+	padding: 65px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.carouseluwu{
+	height: 15em;
+	width: 25em;
+	margin-top: 3em;
+}
+
+.pasosdec{
+	color: white;
+	background-color: black;
+}

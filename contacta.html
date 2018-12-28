@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Contacta</title>
+	<link rel="icon" href="img/logotth.png" type="image/png">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.easing.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+	
+	<link href="css/estilo.css" rel="stylesheet">
+	<link href="css/contacta.css" rel="stylesheet">
+	
+	
+
+  </head>
+
+  <body id="contacta">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+	  <img src="img/logotth.png" id="logotth">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Take Them Home</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quehacer.html">¿Qué hacer?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="asociaciones.html">Asociaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacta.html">Contactar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<!--
+	<section id="titi">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto text-center">
+				<h2 class="section-heading text-white">CONTACTA</h2>
+				<hr class="light my-4">
+			</div>
+		</div>
+	</div>
+	</section>
+	-->
+		<div class="wpr">
+			<a class="social" id="twitter" href="https://twitter.com/TakeThemHome2?lang=en">
+				<div class="icon"></div>
+				
+				<div class="shutter_frame">
+					<div class="shutter">
+						<div class="bar"></div>
+						<div class="text">Twitter</div>
+					</div>
+				</div>
+			</a>
+			
+			<a class="social" id="instagram" href="https://www.instagram.com/takethemhomeweb/">
+				<div class="icon2"></div>
+				
+				<div class="shutter_frame">
+					<div class="shutter">
+						<div class="bar"></div>
+						<div class="text">Instagram</div>
+					</div>
+				</div><!-- / .shutter_frame -->
+			</a>
+		</div><!-- / .wpr -->
+	</div>
+		
+		<script>
+			$(document).ready(function() {
+			
+				$('.social').hover(
+					function() {
+						$(this).find('.shutter').stop(true, true).animate({
+							bottom: '-36px'
+						 },
+						 {
+							duration: 300,
+							easing: 'easeOutBounce'
+						 });
+					},
+					function () {
+						$(this).find('.shutter').stop(true, true).animate({
+							bottom: 0
+						 },
+						 {
+							duration: 300,
+							easing: 'easeOutBounce'
+						 });
+					}
+				);
+				
+			});
+		</script>
+
+	</div>
+	
+	
+	<form action="mailto:takethemhome3@gmail.com">
+		<div>
+			<label for="nombre">Nombre:</label>
+			<input name="nombre" type="text" id="nombre" />
+		</div>
+		<div>
+			<label for="mail">E-mail:</label>
+			<input name="email" type="email" id="email" />
+		</div>
+		<div>
+			<label for="msg">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje" type = "text"></textarea>
+		</div>
+		
+		<div class="button">
+			<button type="submit">Enviar</button>
+		</div>
+	</form>
+	
+	
+	
+	</body>
